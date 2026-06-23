@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f4f7fa;
+}
+
+
+/* Navbar */
+
+nav{
+    background:#0e1e2b;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:600;
+    color:#0076CE;
+}
+
+.logo i{
+    margin-right:10px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#0076CE;
+}
+
+
+/* Hero Section */
+
+.hero{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:70px 10%;
+    background:white;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:50px;
+    color:#0e1e2b;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    color:gray;
+    line-height:30px;
+    margin-bottom:30px;
+}
+
+.hero button{
+    background:#0076CE;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.hero-image img{
+    width:500px;
+    border-radius:20px;
+}
+
+
+/* Main Container */
+
+.container{
+    width:80%;
+    margin:50px auto;
+}
+
+.container h2{
+    color:#0e1e2b;
+    margin-bottom:20px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-left:6px solid #0076CE;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.box{
+    background:white;
+    padding:30px;
+    margin-top:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
+}
+
+input{
+    width:70%;
+    padding:15px;
+    border:1px solid lightgray;
+    border-radius:8px;
+    margin-right:15px;
+}
+
+button{
+    background:#0076CE;
+    color:white;
+    border:none;
+    padding:15px 25px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#005ea8;
+}
+
+#result{
+    margin-top:20px;
+    font-size:18px;
+    font-weight:600;
+    color:green;
+}
+
+footer{
+    background:#0e1e2b;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}

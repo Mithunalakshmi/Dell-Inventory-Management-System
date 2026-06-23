@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dell Inventory Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+
+<nav>
+    <div class="logo">
+        <i class="fa-solid fa-laptop"></i>
+        <span>DELL</span>
+    </div>
+
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Inventory</a></li>
+        <li><a href="#">Support</a></li>
+    </ul>
+</nav>
+
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>Dell Inventory Management System</h1>
+
+        <p>
+            Manage Dell laptops and accessories efficiently using
+            JavaScript arrays and dynamic inventory operations.
+        </p>
+
+        <button>Explore Products</button>
+    </div>
+
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800"
+        alt="Dell Laptop">
+    </div>
+
+</section>
+
+
+<!-- Inventory Section -->
+
+<div class="container">
+
+    <h2>Current Inventory</h2>
+
+    <ul id="inventoryList"></ul>
+
+
+    <div class="box">
+
+        <h2>Add Product</h2>
+
+        <input type="text"
+        id="addProduct"
+        placeholder="Enter Product Name">
+
+        <button onclick="addProduct()">
+            Add Product
+        </button>
+
+    </div>
+
+
+    <div class="box">
+
+        <h2>Remove Product</h2>
+
+        <input type="text"
+        id="removeProduct"
+        placeholder="Enter Product Name">
+
+        <button onclick="removeProduct()">
+            Remove Product
+        </button>
+
+    </div>
+
+
+    <div class="box">
+
+        <h2>Check Availability</h2>
+
+        <input type="text"
+        id="checkProduct"
+        placeholder="Enter Product Name">
+
+        <button onclick="checkAvailability()">
+            Check Stock
+        </button>
+
+        <p id="result"></p>
+
+    </div>
+
+</div>
+
+
+<footer>
+    © 2026 Dell Inventory Management System | Built with HTML, CSS and JavaScript
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
